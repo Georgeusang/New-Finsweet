@@ -84,7 +84,7 @@
         justify-content: center;
         align-items: center;}
 
-/* global styling */
+/* CAR SERVICES SECTION */
 .service-left { display: flex;
 background-color: #E2E6E9;
 column-gap: 10px;
@@ -103,7 +103,6 @@ padding-top:15px ;}
 
 .car-service-bg h1 { padding-right: 30px;}
 
-/* global styling */
 .service-left-left { 
     background-color: white;
     width: 25px;
@@ -358,6 +357,13 @@ align-items: center;
 
 #btn-touch { background-color: #1E1B1B;
 color: #FFFFFF;}
+
+#btn-touch:hover {background-color: #939191;
+    transition: border-color 0s, width 0.3s, height 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
 
 #get-in-touch .first-row .left-car .left-car-card .content-left .btn {  padding-top: 30px;}
 
